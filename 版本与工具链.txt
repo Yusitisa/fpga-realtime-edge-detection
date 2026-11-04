@@ -1,0 +1,11 @@
+芯片型号：Xilinx Zynq-7010（XC7Z010clg400-1）
+开发板：博宸精芯 ZYNQ_MINI
+摄像头：OV5640（DVP，640x480 RGB565）
+显示输出：HDMI（640x480@60Hz）
+
+EDA 工具：Xilinx Vivado 2021.1（兼容 2022.x / 2023.x）
+仿真器：Vivado 内置 xsim
+编程语言：Verilog HDL（IEEE 1364-2005）
+
+Python：3.10+
+依赖：Pillow、numpy（仅用于 golden model 与测试图生成，不参与上板）
